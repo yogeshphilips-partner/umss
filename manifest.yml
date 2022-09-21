@@ -1,11 +1,10 @@
 --- 
 applications: 
   - 
-    instances: 3
-    memory: 500M
-    name: umss-manifest
+    instances: 1
+    memory: 1G
+    name: umsmani
     docker: 
       image: "stacksimplify/kube-usermanagement-microservice:4.0.0-AWS-XRay-H2DB"
     routes: 
-      - 
-        route: umss.eu1.phsdp.com
+      - route: umsmani.eu1.phsdp.com
