@@ -1,0 +1,13 @@
+applications:
+  - buildpacks:
+    - java_buildpack
+    routes:
+  - route: umss.eu1.phsdp.com
+  - name: umss
+    docker:
+      image: stacksimplify/kube-usermanagement-microservice:4.0.0-AWS-XRay-H2DB
+processes:
+   - type: web
+     instances: 3
+     memory: 500M
+     timeout: 10
