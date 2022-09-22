@@ -1,6 +1,6 @@
 --- 
 applications: 
-  - 
+  - name: umsmanifest
     instances: 1
     memory: 1G
     name: umsmani
