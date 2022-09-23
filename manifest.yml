@@ -1,6 +1,6 @@
 --- 
 applications: 
-  - name: umsmani
+  - name: umsmani1
     instances: 1
     memory: 1G
     name: umsmani
